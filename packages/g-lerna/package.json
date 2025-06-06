@@ -1,0 +1,29 @@
+{
+  "name": "g-lerna",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Robin <lotosv2010@163.com>",
+  "homepage": "https://github.com/lotosv2010/g-lerna#readme",
+  "license": "ISC",
+  "main": "lib/g-lerna.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotosv2010/g-lerna.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/g-lerna.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lotosv2010/g-lerna/issues"
+  }
+}
