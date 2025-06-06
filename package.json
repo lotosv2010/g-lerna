@@ -1,8 +1,17 @@
 {
   "name": "root",
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "jest": "^29.7.0",
     "lerna": "^8.2.2"
+  },
+  "scripts": {
+    "install": "lerna run install",
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "lint": "lerna run lint",
+    "prettier": "lerna run prettier",
+    "test": "lerna run test"
   }
 }

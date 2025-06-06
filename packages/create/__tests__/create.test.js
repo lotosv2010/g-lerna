@@ -1,7 +1,9 @@
-'use strict';
+"use strict";
 
-const create = require('..');
-const assert = require('assert').strict;
+const create = require("..");
 
-assert.strictEqual(create(), 'Hello from create');
-console.info('create tests passed');
+describe("@g-lerna/create", () => {
+  it("create", () => {
+    expect(create()).toEqual("Hello from create");
+  });
+});

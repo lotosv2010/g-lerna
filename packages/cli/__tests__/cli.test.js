@@ -1,7 +1,9 @@
-'use strict';
+"use strict";
 
-const cli = require('..');
-const assert = require('assert').strict;
+const cli = require("..");
 
-assert.strictEqual(cli(), 'Hello from cli');
-console.info('cli tests passed');
+describe("@g-lerna/cli", () => {
+  it("cli", () => {
+    expect(cli()).toEqual("Hello from cli");
+  });
+});

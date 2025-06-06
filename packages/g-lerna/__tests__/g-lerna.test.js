@@ -1,7 +1,9 @@
-'use strict';
+"use strict";
 
-const gLerna = require('..');
-const assert = require('assert').strict;
+const gLerna = require("..");
 
-assert.strictEqual(gLerna(), 'Hello from gLerna');
-console.info('gLerna tests passed');
+describe("@g-lerna/g-lerna", () => {
+  it("g-lerna", () => {
+    expect(gLerna()).toEqual("Hello from gLerna");
+  });
+});

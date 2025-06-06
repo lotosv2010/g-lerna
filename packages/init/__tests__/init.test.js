@@ -1,7 +1,9 @@
 'use strict';
 
-const init = require('..');
-const assert = require('assert').strict;
+const init = require("..");
 
-assert.strictEqual(init(), 'Hello from init');
-console.info('init tests passed');
+describe("@g-lerna/init", () => {
+  it("init", () => {
+    expect(init()).toEqual("Hello from init");
+  });
+});

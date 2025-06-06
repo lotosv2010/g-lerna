@@ -21,7 +21,7 @@
     "url": "git+https://github.com/lotosv2010/g-lerna.git"
   },
   "scripts": {
-    "test": "node ./__tests__/@g-lerna/init.test.js"
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/lotosv2010/g-lerna/issues"
