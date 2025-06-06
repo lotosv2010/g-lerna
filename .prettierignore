@@ -1,0 +1,12 @@
+**/*.html
+
+**/node_modules
+
+**/dist
+
+**/coverage
+
+packages/**/node_modules
+packages/**/dist
+packages/**/coverage
+packages/**/__tests__

@@ -22,7 +22,8 @@
   },
   "scripts": {
     "test": "jest",
-    "lint":"eslint --ext .js lib/**/*.js --no-error-on-unmatched-pattern --fix"
+    "lint":"eslint --ext .js lib/**/*.js --no-error-on-unmatched-pattern --fix",
+    "prettier":"prettier --write \"**/*.{js,md}\" --ignore-path ../../.prettierignore"
   },
   "bugs": {
     "url": "https://github.com/lotosv2010/g-lerna/issues"
