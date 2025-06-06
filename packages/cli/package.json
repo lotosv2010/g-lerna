@@ -21,7 +21,8 @@
     "url": "git+https://github.com/lotosv2010/g-lerna.git"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint":"eslint --ext .js lib/**/*.js --no-error-on-unmatched-pattern --fix"
   },
   "bugs": {
     "url": "https://github.com/lotosv2010/g-lerna/issues"
