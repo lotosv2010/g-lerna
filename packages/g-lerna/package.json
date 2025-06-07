@@ -1,6 +1,6 @@
 {
   "name": "g-lerna",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "Robin <lotosv2010@163.com>",
   "homepage": "https://github.com/lotosv2010/g-lerna#readme",
@@ -32,8 +32,8 @@
     "url": "https://github.com/lotosv2010/g-lerna/issues"
   },
   "dependencies": {
-    "@g-lerna/cli": "workspace:^0.0.1",
-    "@g-lerna/create": "workspace:^0.0.1",
-    "@g-lerna/init": "workspace:^0.0.1"
+    "@g-lerna/cli": "workspace:^0.0.2",
+    "@g-lerna/create": "workspace:^0.0.2",
+    "@g-lerna/init": "workspace:^0.0.2"
   }
 }
