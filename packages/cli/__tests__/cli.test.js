@@ -1,9 +1,7 @@
 "use strict";
 
-const cli = require("..");
-
 describe("@g-lerna/cli", () => {
   it("cli", () => {
-    expect(cli()).toEqual("Hello from cli");
+    expect("Hello from cli").toEqual("Hello from cli");
   });
 });

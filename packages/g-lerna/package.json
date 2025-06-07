@@ -6,6 +6,9 @@
   "homepage": "https://github.com/lotosv2010/g-lerna#readme",
   "license": "ISC",
   "main": "lib/g-lerna.js",
+  "bin": {
+    "g-lerna": "cli.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lotosv2010/g-lerna.git"
+    "url": "githttps://github.com/lotosv2010/g-lerna.git"
   },
   "scripts": {
     "test": "jest",
@@ -27,5 +30,10 @@
   },
   "bugs": {
     "url": "https://github.com/lotosv2010/g-lerna/issues"
+  },
+  "dependencies": {
+    "@g-lerna/cli": "workspace:^0.0.1",
+    "@g-lerna/create": "workspace:^0.0.1",
+    "@g-lerna/init": "workspace:^0.0.1"
   }
 }
