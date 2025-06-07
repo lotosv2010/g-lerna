@@ -1,6 +1,6 @@
 {
   "name": "@g-lerna/init",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Robin <lotosv2010@163.com>",
   "homepage": "https://github.com/lotosv2010/g-lerna#readme",
@@ -22,8 +22,8 @@
   },
   "scripts": {
     "test": "jest",
-    "lint":"eslint --ext .js lib/**/*.js --no-error-on-unmatched-pattern --fix",
-    "prettier":"prettier --write \"**/*.{js,md}\" --ignore-path ../../.prettierignore"
+    "lint": "eslint --ext .js lib/**/*.js --no-error-on-unmatched-pattern --fix",
+    "prettier": "prettier --write \"**/*.{js,md}\" --ignore-path ../../.prettierignore"
   },
   "bugs": {
     "url": "https://github.com/lotosv2010/g-lerna/issues"
