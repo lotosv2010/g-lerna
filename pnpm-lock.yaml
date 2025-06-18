@@ -58,13 +58,13 @@ importers:
   packages/g-lerna:
     dependencies:
       '@g-lerna/cli':
-        specifier: workspace:^0.0.2
+        specifier: workspace:^0.0.3
         version: link:../cli
       '@g-lerna/create':
-        specifier: workspace:^0.0.2
+        specifier: workspace:^0.0.3
         version: link:../create
       '@g-lerna/init':
-        specifier: workspace:^0.0.2
+        specifier: workspace:^0.0.3
         version: link:../init
 
   packages/init:
