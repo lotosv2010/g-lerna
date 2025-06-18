@@ -14,7 +14,8 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "cli.js"
   ],
   "publishConfig": {
     "registry": "http://localhost:4873"
